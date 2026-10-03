@@ -33,3 +33,14 @@ If `sales_data.csv` is missing, the dashboard generates it automatically on firs
 - **Filters:** Date range, Region, Product, Customer Segment, Salesperson
 - **Charts:** Revenue trend, Revenue by region, Product performance, Profit by segment
 - All metrics and charts refresh when filters change
+
+## Deploy on Streamlit Community Cloud
+
+1. Open [share.streamlit.io](https://share.streamlit.io)
+2. Sign in with GitHub and authorize access to `rkv762/executive-sales-dashboard`
+3. Click **New app** and set:
+   - **Repository:** `rkv762/executive-sales-dashboard`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+4. Click **Deploy**
+
